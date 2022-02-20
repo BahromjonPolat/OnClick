@@ -1,7 +1,7 @@
 # On Click
 
 
-<img src="https://github.com/BahromjonPolat/on_click/blob/main/example/assets/click.png?raw=true" width="50%">
+<img src="https://raw.githubusercontent.com/BahromjonPolat/on_click/main/example/assets/click.png" width="50%">
 
 ## Getting started
 
