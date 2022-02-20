@@ -1,2 +1,2 @@
 library on_click;
-export 'extension.dart';
+export 'extensions/click_extension.dart';
