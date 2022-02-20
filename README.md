@@ -1,29 +1,51 @@
+# On Click
 
 
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+<img src="./example/assets/click.png" width="50%">
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To install, onpen pubspec.yaml file and add to dependencies
 
-## Usage
-
-Install on_click package
+```
+dependencies:
+  ...
+  on_click ^1.1.2
+```
+Or open terminal and write following command
 
 ```
 flutter pub add on_click
 ```
+
+## Usage
 After installing import package
 
 ```dart
 import 'package:on_click/on_click.dart';
 ```
+```dart
+Container(
+  height: 100,
+  width: 250,             
+  color: Colors.amber,
+  child:const Text('Click here'),
+).onClick(() { 
+  print('Clicked');
+})
+```
+to use multiple functions simultaneously
 
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+```dart
+Container(
+  height: 100,
+  width: 250,             
+  color: Colors.amber,
+  child:const Text('Click here'),
+).onClick(() { 
+  print('Clicked');
+  
+}).onDoubleClick((){
+  print("Double click");
+})
+```
