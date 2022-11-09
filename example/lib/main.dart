@@ -37,13 +37,12 @@ class _HomePageState extends State<HomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
-              height: 120.0,
-              width: 240.0,
-              color: Colors.green,
-            ).onTap(() {
-              print('clicked');
-            }).onLongPressed(() {
-              print('LongPressed');
+              height: 100,
+              width: 250,
+              color: Colors.amber,
+              child:const Text('Click here'),
+            ).onClick(() {
+              print('Clicked');
             }),
           ],
         ),
